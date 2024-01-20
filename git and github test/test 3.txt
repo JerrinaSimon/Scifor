@@ -1,0 +1,33 @@
+1.What is Git and why is it used?
+Ans:Git is a distributed version control system that helps us to track the changes made in our code or projects.
+It allows multiple developers to work on the same projects simultaneously.And also able to handle small and large projects efficiently.
+
+2.Explain the difference between Git pull and Git fetch.
+And:git pull:Fetches changes from a remote repository and merges into the current branch.
+Git fetch:Fetches changes from the remote repository but does not automatically merges into the current branch.It updates the local references to the remote branches.
+
+3.How do you revert a commit in Git?
+Ans:git revert<commit>:using this command it will undoes the changes made by the specified commit.
+
+4.Describe the Git staging area.
+Ans:Git staging areas are the intermediate area in the git where changes are prepared before being committed.Using git add command files are added to the staging area before it being committed.using git commit command.
+
+5.What is a merge conflict, and how can it be resolved?
+Ans:Merge conflict happens when git cannot automatically changes from different branches.It can be resolved by manually editing the conflicting files marking them as resolved then commit the changes to the file.
+
+6.How does Git branching contribute to collaboration?
+Ans:Git branches use separate lines of development within the repository.allows the developers to work on features or bug fixes separately without affecting the main code base.It enables parallel development, making collaboration smoother and reducing conflicts.
+
+7. What is the purpose of Git rebase?
+Ans:Git rebase purpose is to  integrate changes from one branch into another by moving or combining commits.It results in a linear project history and is useful for maintaining a clean, readable commit history.
+
+8. Explain the difference between Git clone and Git fork.
+Ans:git clone creates a copy of a repository on your local machine.
+git fork is used on platforms like GitHub to create a personal copy of someone else's repository on the platform itself.
+
+9.How do you delete a branch in Git?
+Ans:Use git branch -d <branch> to delete a branch locally.
+
+10. What is a Git hook, and how can it be used?
+Ans:A Git hook is a script that runs at specific points in the Git workflow.
+It can be used to automate tasks like code linting, running tests, or triggering deployment scripts.
